@@ -1,10 +1,10 @@
 name: Generate Contribution Snake
 
 on:
-  # Roda todo dia à meia-noite UTC
+  # Runs daily at midnight UTC
   schedule:
     - cron: "0 0 * * *"
-  # Permite rodar manualmente via Actions tab
+  # Allows manual trigger from the Actions tab
   workflow_dispatch:
 
 permissions:
